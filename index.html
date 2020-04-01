@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+
+<body>
+    <div id="resume">
+        <div class="main">
+            <span v-html="name.chinese"></span>
+            <span v-html="name.english"></span>
+            <div v-html="name.id"></div>
+            <div v-html="name.content"></div>
+        </div>
+        <div class="ex">
+            <div v-html="contect.title"></div>
+            <a v-bind:href="contect.github">
+                <img class="incon" v-bind:src="contect.githubicon" />
+            </a>
+            <a v-bind:href="contect.fb">
+                <img class="incon" v-bind:src="contect.fb_incon" />
+            </a>
+            <a v-bind:href="contect.web">
+                <img class="incon" v-bind:src="contect.web_icon" />
+            </a>
+            <!-- v-bind:href可以簡化為:href -->
+            <!-- githubicon,github_icon後則無法有圖片 -->
+        </div>
+        <div class="ex">
+            <div v-html="experience.title"></div>
+            <li v-html="experience.experience1" class="ex1"></li>
+            <li v-html="experience.experience2"></li>
+            <li v-html="experience.experience3"></li>
+            <li v-html="experience.experience4"></li>
+        </div>
+        <div class="ex">
+            <div v-html="skills.title"></div>
+            <li v-html="skills.skills1" class="ex1"></li>
+            <li v-html="skills.skills2"></li>
+            <li v-html="skills.skills3"></li>
+            <li v-html="skills.skills4"></li>
+        </div>
+        <div class="ex">作品集</div>
+
+        <div class="ex">
+            <div id="linetext">
+                <li>147</li>
+                <li>258</li>
+                <li>369</li>
+            </div>
+        </div>
+
+        <div class="ex">
+            <span id="circle">1</span>369
+        </div>
+
+        <span id="circle_number">1</span>
+
+        <!-- <img id="line" src="line.png"> -->
+
+        <div class="foot">foot 2020</div>
+    </div>
+    <script src="html_vue.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+        div.main {
+            height: 100px;
+            width: 92%;
+            text-align: left;
+            background-color: #c8d1dc;
+            border: 2px darkgoldenrod;/* 虛線邊框 沒看見效果*/
+            margin: 5px 1% 5px 1%;
+            float: none;
+            z-index: 1;
+            border-radius: 10px;
+            padding: 5px 3% 5px 3%;
+        }
+
+        div.ex {
+            height: 120px;
+            width: 42%;
+            text-align: left;
+            background-color: #03a9f473;
+            margin: 5px 1% 5px 1%;
+            float: left;
+            z-index: 1;
+            border-radius: 10px;
+            padding: 5px 3% 5px 3%;
+        }
+
+        div.foot {
+            width: 98%;
+            text-align: center;
+            margin: 1%;
+            float: left;
+            border-radius: 10px;
+        }
+
+        #line {
+            top: 300px;
+            left: 3%;
+            width: 50px;
+            /* height: 50px; */
+            z-index: 3;
+            position: absolute;
+        }
+
+        #linetext {
+            z-index: 4;
+        }
+
+        #circle_number {
+            top: 290px;
+            left: 4%;
+            width: 20px;
+            height: 20px;
+            background-color: #ff9800;
+            margin-right: 20px;
+            border-radius: 10px;
+            position: absolute;
+            z-index: 5;
+            text-align: center;
+
+            margin: auto;
+            display:inline-block;
+        }
+        #circle {
+
+        }
+        img.incon {
+            height: 25px;
+            width: 25px;
+        }

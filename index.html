@@ -18,7 +18,7 @@
             <div v-html="name.content"></div>
         </div>
         <div class="ex">
-            <div v-html="contect.title"></div>
+            <div v-html="title.content1"></div>
             <a v-bind:href="contect.github">
                 <img class="incon" v-bind:src="contect.githubicon" />
             </a>
@@ -32,20 +32,25 @@
             <!-- githubicon,github_icon後則無法有圖片 -->
         </div>
         <div class="ex">
-            <div v-html="experience.title"></div>
-            <li v-html="experience.experience1" class="ex1"></li>
-            <li v-html="experience.experience2"></li>
-            <li v-html="experience.experience3"></li>
-            <li v-html="experience.experience4"></li>
+            <div v-html="title.content2"></div>
+            <li v-for="experience in experiences">
+                {{ experience.text }}
+            </li>
         </div>
         <div class="ex">
-            <div v-html="skills.title"></div>
-            <li v-html="skills.skills1" class="ex1"></li>
-            <li v-html="skills.skills2"></li>
-            <li v-html="skills.skills3"></li>
-            <li v-html="skills.skills4"></li>
+            <div v-html="title.content3"></div>
+            <!-- 兩組vue的迴圈還在思考如何呈現會比較好 -->
+            <div id="circle">1</div><span v-html="skills.text1"></span><br>
+            <div id="circle">2</div><span v-html="skills.text2"></span><br>
+            <div id="circle">3</div><span v-html="skills.text3"></span><br>
+            <div id="circle">4</div><span v-html="skills.text4"></span><br>
+            <!-- <li v-for="skill in skills">{{ skill.text }} -->
+
         </div>
-        <div class="ex">作品集</div>
+        <div class="ex">
+            <div v-html="title.content4"></div>
+            待建立
+        </div>
 
         <div class="ex">
             <div id="linetext">
@@ -56,14 +61,11 @@
         </div>
 
         <div class="ex">
-            <span id="circle">1</span>369
         </div>
-
-        <span id="circle_number">1</span>
 
         <!-- <img id="line" src="line.png"> -->
 
-        <div class="foot">foot 2020</div>
+        <div class="foot">iachievedream foot 2020</div>
     </div>
     <script src="html_vue.js"></script>
 </body>

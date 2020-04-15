@@ -53,6 +53,6 @@ new Vue({
         demo_code:{
             text1:'https://github.com/iachievedream/blog-laravel',
             text2:'https://github.com/iachievedream/blog-laravel-jwt'
-        },
+        }
     }
 })

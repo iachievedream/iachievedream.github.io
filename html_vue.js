@@ -5,7 +5,9 @@ new Vue({
             content1:'Contect',
             content2:'Experience',
             content3:'Skills',
-            content4:'Demo'
+            content4:'Demo(本機電腦要開，ubuntu環境)',
+            content5:'Github上的筆記',
+            content6:'Github上的專案'
         },        
         name: {
             chinese: '傅獻慶',
@@ -38,6 +40,19 @@ new Vue({
             text2:'CSS',
             text3:'PHP',
             text4:'MySQL'
-        }
+        },
+        demo:{
+            text1:'http://virtualboxubuntu1.fuwork.xyz:81/',
+            text2:'https://virtualboxubuntu1.fuwork.xyz/',
+            text3:'http://virtualboxubuntu1.fuwork.xyz/'
+        },
+        demobook:{
+            text1:'https://github.com/iachievedream/demo_code',
+            text2:'https://github.com/iachievedream/notebook'
+        },
+        demo_code:{
+            text1:'https://github.com/iachievedream/blog-laravel',
+            text2:'https://github.com/iachievedream/blog-laravel-jwt'
+        },
     }
 })

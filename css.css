@@ -1,3 +1,6 @@
+#bigform{
+}
+
 div.main {
     height: 100px;
     width: 92%;
@@ -12,7 +15,7 @@ div.main {
 }
 
 div.ex {
-    height: 150px;
+    height: 190px;
     width: 42%;
     text-align: left;
     background-color: #03a9f473;

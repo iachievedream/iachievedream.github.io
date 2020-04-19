@@ -40,7 +40,7 @@ new Vue({
             text2:'CSS',
             text3:'PHP',
             text4:'MySQL',
-            text5:'Laravel'
+            text5:'Laravel',
         },
         demo:{
             text1:'http://virtualboxubuntu1.fuwork.xyz:81/',
@@ -49,7 +49,8 @@ new Vue({
         },
         demobook:{
             text1:'https://github.com/iachievedream/demo_code',
-            text2:'https://github.com/iachievedream/notebook'
+            text2:'https://hackmd.io/5aleE6jMTjGJGliijXm57Q',
+            text3:'https://github.com/iachievedream/notebook'
         },
         demo_code:{
             text1:'https://github.com/iachievedream/blog-laravel',

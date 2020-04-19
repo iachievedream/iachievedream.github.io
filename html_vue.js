@@ -39,7 +39,8 @@ new Vue({
             text1:'html',
             text2:'CSS',
             text3:'PHP',
-            text4:'MySQL'
+            text4:'MySQL',
+            text5:'Laravel'
         },
         demo:{
             text1:'http://virtualboxubuntu1.fuwork.xyz:81/',

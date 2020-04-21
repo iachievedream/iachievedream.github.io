@@ -17,11 +17,11 @@ new Vue({
         },
         contect:{
             github:'https://github.com/iachievedream',
-            githubicon:'picture/github.svg',
+            githubicon:'../picture/github.svg',
             fb:'https://www.facebook.com/profile.php?id=100002572888672',
-            fb_incon:'picture/facebook.svg',
+            fb_incon:'../picture/facebook.svg',
             web:'https://physicalconceptsstation.wordpress.com/',
-            web_icon:'picture/internet.svg'
+            web_icon:'../picture/internet.svg'
         },
         experiences:[
             { text:'後端工程師' },

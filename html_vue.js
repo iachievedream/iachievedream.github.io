@@ -52,8 +52,10 @@ new Vue({
             text2:'https://github.com/iachievedream/notebook'
         },
         demo_code:{
-            text1:'https://github.com/iachievedream/blog-laravel',
-            text2:'https://github.com/iachievedream/blog-laravel-jwt'
+            code1:'https://github.com/iachievedream/blog-laravel',
+            demo1:'https://www.youtube.com/watch?v=PgSaVoqxjTo&list=PLfBT9P5LG1z8n61SkoeK5nxIdS83LwZi3&index=2',
+            code2:'https://github.com/iachievedream/blog-laravel-jwt',
+            demo2:'https://www.youtube.com/watch?v=yn9q4NXd7BM&list=PLfBT9P5LG1z8n61SkoeK5nxIdS83LwZi3&index=1'
         }
     }
 })

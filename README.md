@@ -11,3 +11,7 @@ git commit -m "resume, vue and css"
 git remote add origin https://github.com/iachievedream/iachievedream.github.io
 git push -u origin master
 ~~~
+
+vue的頁面架構：
+
+<img src="picture/vue_content.png" width="50%" height="50%" />

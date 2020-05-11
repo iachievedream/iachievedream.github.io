@@ -47,33 +47,44 @@
         <div id="myex" class="ex">
             <div v-html="title.content3"></div>
             <!-- 兩組vue的迴圈還在思考如何呈現會比較好 -->
-            <div id="circle">1</div><span v-html="skills.text1"></span><br>
-            <div id="circle">2</div><span v-html="skills.text2"></span><br>
-            <div id="circle">3</div><span v-html="skills.text3"></span><br>
-            <div id="circle">4</div><span v-html="skills.text4"></span><br>
-            <div id="circle">5</div><span v-html="skills.text5"></span><br>
+            <div id="circle">1</div><span v-html="skills.skill1"></span><br>
+            <div id="circle">2</div><span v-html="skills.skill2"></span><br>
+            <div id="circle">3</div><span v-html="skills.skill3"></span><br>
+            <div id="circle">4</div><span v-html="skills.skill4"></span><br>
+            <div id="circle">5</div><span v-html="skills.skill5"></span><br>
             <!-- <li v-for="skill in skills">{{ skill.text }} -->
 
         </div>
         <div class="exfoot">
             <div v-html="title.content4"></div>
-            <div id="circle">1</div>http：<a v-bind:href="demo.text1">virtualboxubuntu1</a>：81<br>
-            <div id="circle">2</div>https：<a v-bind:href="demo.text2">virtualboxubuntu1</a><br>
-            <div id="circle">3</div>測試 laravel：<a v-bind:href="demo.text2">virtualboxubuntu1</a>：80<br>
+            <div id="circle">1</div><span v-html="demo.title1"></span><a v-bind:href="demo.href1"><span
+                    v-html="demo.content1"></a><br>
+            <div id="circle">2</div><span v-html="demo.title2"></span><a v-bind:href="demo.href2"><span
+                    v-html="demo.content2"></a><br>
+            <div id="circle">3</div><span v-html="demo.title3"></span><a v-bind:href="demo.href3"><span
+                    v-html="demo.content3"></a><br>
+            <div id="circle">4</div><span v-html="demo.title4"></span><a v-bind:href="demo.href4"><span
+                    v-html="demo.content4"></a><br>
         </div>
 
         <div class="exfoot">
             <div v-html="title.content5"></div>
-            <div id="circle">1</div>主要整理筆記：<a v-bind:href="demobook.text1">demo_code</a><br>
-            <div id="circle">3</div>舊筆記，還需重新整理：<a v-bind:href="demobook.text2">notebook</a><br>
+            <div id="circle">1</div><span v-html="demobook.title1"></span><a v-bind:href="demobook.href1"><span
+                    v-html="demobook.content1"></a><br>
+            <div id="circle">2</div><span v-html="demobook.title2"></span><a v-bind:href="demobook.href2"><span
+                    v-html="demobook.content2"></a><br>
         </div>
 
         <div class="exfoot">
             <div v-html="title.content6"></div>
-            <div id="circle">1</div>laravel 的 blog(含筆記)：<a v-bind:href="demo_code.text1">blog-laravel</a><br>
-            實際操作影片：<a v-bind:href="demo_code.text2">demo</a><br>
-            <div id="circle">2</div>laravel 的 blog，採用JWT方式：<a v-bind:href="demo_code.text3">blog-laravel-jwt</a><br>
-            實際操作影片：<a v-bind:href="demo_code.text4">demo</a><br>
+            <div id="circle">1</div><span v-html="demo_code.title1"></span>
+            <a v-bind:href="demo_code.href1"><span v-html="demo_code.hrefcontent1"></a><br>
+            <span v-html="demo_code.movie1"></span>
+            <a v-bind:href="demo_code.moviehref1"><span v-html="demo_code.moviecontent1"></a><br>
+            <div id="circle">2</div><span v-html="demo_code.title2"></span>
+            <a v-bind:href="demo_code.href2"><span v-html="demo_code.hrefcontent2"></a><br>
+            <span v-html="demo_code.movie2"></span>
+            <a v-bind:href="demo_code.moviehref2"><span v-html="demo_code.moviecontent2"></a><br>
         </div>
 
         <!-- <img id="line" src="line.png"> -->

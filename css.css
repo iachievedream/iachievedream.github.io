@@ -32,7 +32,7 @@ div.ex {
 }
 
 div.exfoot {
-    height: 130px;
+    height: 160px;
     width: 92%;
     text-align: left;
     background-color: #03a9f473;
@@ -62,7 +62,7 @@ div.foot {
         border-radius: 50%;
         position: static;/*待了解*/
         z-index: 5;
-        margin: 1px 6px;/*待了解*/
+        margin: 1px 6px;
         display:inline-block;/*待了解*/
 }
 

@@ -41,7 +41,7 @@ new Vue({
             title2:'http：',
             title3:'https：',
             title4:'測試 laravel：',
-            href1:'http://aws.fuwork.nctu.me/',
+            href1:'http://aws.fuwork.nctu.me:8000',
             href2:'http://virtualboxubuntu1.fuwork.xyz:81/',
             href3:'https://virtualboxubuntu1.fuwork.xyz/',
             href4:'http://virtualboxubuntu1.fuwork.xyz/',

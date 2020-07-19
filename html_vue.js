@@ -5,7 +5,7 @@ new Vue({
             content1:'Contect',
             content2:'Experience',
             content3:'Skills',
-            content4:'Demo(AWS之外為本機電腦)',
+            content4:'Demo',
             content5:'Github上的筆記',
             content6:'Github上的專案'
         },        
@@ -30,7 +30,7 @@ new Vue({
             { text:'機械操作人員' }
         ],
         skills:{
-            skill1:'html',
+            skill1:'HTML',
             skill2:'CSS',
             skill3:'PHP',
             skill4:'MySQL',
@@ -38,17 +38,9 @@ new Vue({
         },
         demo:{
             title1:'AWS：',
-            title2:'http：',
-            title3:'https：',
-            title4:'測試 laravel：',
-            href1:'http://aws.fuwork.nctu.me:8000',
-            href2:'http://virtualboxubuntu1.fuwork.xyz:81/',
-            href3:'https://virtualboxubuntu1.fuwork.xyz/',
-            href4:'http://virtualboxubuntu1.fuwork.xyz/',
+            href1:'http://aws.fuwork.nctu.me',
             content1:'aws.fuwork.nctu.me',
-            content2:'virtualboxubuntu1：81',
-            content3:'virtualboxubuntu1',
-            content4:'virtualboxubuntu1：80'
+            description1:'(測試帳號：demo@gmail.com，密碼12345678)',
         },
         demobook:{
             title1:'主要整理筆記：',

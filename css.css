@@ -1,6 +1,8 @@
 
 body {
-    font-family: "Lato", sans-serif;
+    /* font-family: "Lato", sans-serif; */
+    font-family: 'Helvetica', 'Arial','LiHei Pro','黑體-繁','微軟正黑體', 'sans-serif';
+
 }
 
 #bigform{
@@ -22,6 +24,18 @@ div.main {
 div.ex {
     height: 190px;
     width: 42%;
+    text-align: left;
+    background-color: #03a9f473;
+    float: left;
+    z-index: 1;
+    border-radius: 10px;
+    padding: 5px 3% 5px 3%;
+    margin: 0px 1% 1% 1%;
+}
+
+div.github {
+    height: 90px;
+    width: 92%;
     text-align: left;
     background-color: #03a9f473;
     float: left;

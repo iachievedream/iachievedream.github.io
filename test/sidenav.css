@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+/*側邊欄選擇器*/
+.sidenav {
+    height: 100%;
+    width: 0;
+    /*原始寬度爲0*/
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+/*側邊欄選項選擇器*/
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/*側欄標籤和關閉按鈕光標的效果*/
+.sidenav a:hover,
+.offcanvas a:focus {
+    color: #f1f1f1;
+}
+
+/*側欄和關閉按鈕的位置選擇器*/
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/*當文檔高度小於450px時，改變側欄的padding屬性和字體大小*/
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .mySidenav {
+        width: 200px;
+    }
+    .sidenav a {
+    }
+}

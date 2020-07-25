@@ -41,6 +41,10 @@ new Vue({
             href1:'http://aws.fuwork.nctu.me',
             content1:'aws.fuwork.nctu.me',
             description1:'(測試帳號：demo@gmail.com，密碼12345678)',
+            title2:'pure php：',
+            href2:'http://aws.fuwork.nctu.me:8000/demo_code/php/msg_pure_ajax/',
+            content2:'msg pure ajax',
+            description2:'(update_ajax以及即時更新列表尚未解決)',
         },
         demobook:{
             title1:'主要整理筆記：',

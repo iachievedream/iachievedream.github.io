@@ -1,85 +1,90 @@
-
-body {
-    font-family: "Lato", sans-serif;
+@media screen and (max-width: 500px) {
+  #mymain {
+    height: 120px;
+  }
 }
 
-#bigform{
+body {
+  font-family: "Lato", sans-serif;
+}
+
+#bigform {
 }
 
 div.main {
-    height: 100px;
-    width: 92%;
-    text-align: left;
-    background-color: #c8d1dc;
-    border: 2px darkgoldenrod;/* 虛線邊框 沒看見效果*/
-    margin: 5px 1% 5px 1%;
-    float: none;
-    z-index: 1;
-    border-radius: 10px;
-    padding: 5px 3% 5px 3%;
+  height: 100px;
+  width: 92%;
+  text-align: left;
+  background-color: #c8d1dc;
+  border: 2px darkgoldenrod; /* 虛線邊框 沒看見效果*/
+  margin: 5px 1% 5px 1%;
+  float: none;
+  z-index: 1;
+  border-radius: 10px;
+  padding: 5px 3% 5px 3%;
 }
 
 div.ex {
-    height: 190px;
-    width: 42%;
-    text-align: left;
-    background-color: #03a9f473;
-    float: left;
-    z-index: 1;
-    border-radius: 10px;
-    padding: 5px 3% 5px 3%;
-    margin: 0px 1% 1% 1%;
+  height: 190px;
+  width: 42%;
+  text-align: left;
+  background-color: #03a9f473;
+  float: left;
+  z-index: 1;
+  border-radius: 10px;
+  padding: 5px 3% 5px 3%;
+  margin: 0px 1% 1% 1%;
 }
 
 div.exfoot {
-    height: 130px;
-    width: 92%;
-    text-align: left;
-    background-color: #03a9f473;
-    float: left;
-    z-index: 1;
-    border-radius: 10px;
-    padding: 5px 3% 5px 3%;
-    margin: 0px 1% 1% 1%;
+  height: 130px;
+  width: 92%;
+  text-align: left;
+  background-color: #03a9f473;
+  float: left;
+  z-index: 1;
+  border-radius: 10px;
+  padding: 5px 3% 5px 3%;
+  margin: 0px 1% 1% 1%;
 }
 
 div.foot {
-    width: 98%;
-    text-align: center;
-    margin: 1%;
-    float: left;
-    border-radius: 10px;
+  width: 98%;
+  text-align: center;
+  margin: 1%;
+  float: left;
+  border-radius: 10px;
 }
 
 #circle {
-        /* top: 290px;
+  /* top: 290px;
         left: 4%; */
-        width: 30px;
-        height: 30px;
-        line-height: 30px;
-        background-color: #ff9800;
-        text-align: center;
-        border-radius: 50%;
-        position: static;/*待了解*/
-        z-index: 5;
-        margin: 1px 6px;/*待了解*/
-        display:inline-block;/*待了解*/
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #ff9800;
+  text-align: center;
+  border-radius: 50%;
+  position: static; /*待了解*/
+  z-index: 5;
+  margin: 1px 6px; /*待了解*/
+  display: inline-block; /*待了解*/
 }
 
 img.incon {
-    height: 25px;
-    width: 25px;
+  height: 25px;
+  width: 25px;
 }
 
 #line {
-    top: 300px;
-    left: 3%;
-    width: 50px;
-    /* height: 50px; */
-    z-index: 3;
-    position: absolute;
+  top: 300px;
+  left: 3%;
+  width: 50px;
+  /* height: 50px; */
+  z-index: 3;
+  position: absolute;
 }
 
 #linetext {
-    z-index: 4;
+  z-index: 4;
 }

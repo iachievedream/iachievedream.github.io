@@ -5,18 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
-    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <!-- <script src="https://unpkg.com/vue/dist/vue.js"></script> -->
+    <script src="vue.js"></script>
     <link rel="stylesheet" type="text/css" href="css.css">
 </head>
 
 <body>
-    <style>
-        @media screen and (max-width: 500px) {
-            #mymain {
-                height: 120px;
-            }
-        }
-    </style>
     <div id="resume">
         <div id="mymain" class="main">
             <font size="5">
@@ -39,9 +33,9 @@
         </div>
         <div id="myex" class="ex">
             <div v-html="title.content2"></div>
-            <li v-for="experience in experiences">
-                {{ experience.text }}
-            </li>
+            <ul v-for="experience in experiences" style="padding-inline-start:20px;">
+                <li >{{ experience.text }}</li>
+            </ul>
         </div>
         <div id="myex" class="ex">
             <div v-html="title.content3"></div>
@@ -54,13 +48,13 @@
             <!-- <li v-for="skill in skills">{{ skill.text }} -->
 
         </div>
-        <div class="github">
+        <div class="demo">
             <div v-html="title.content4"></div>
             <div id="circle">1</div><span v-html="demo.title1"></span><a v-bind:href="demo.href1"><span
                     v-html="demo.content1"></a><span v-html="demo.description1"></span><br>
-            <!-- <div id="circle">2</div><span v-html="demo.title2"></span><a v-bind:href="demo.href2"><span
-                    v-html="demo.content2"></a><br>
-            <div id="circle">3</div><span v-html="demo.title3"></span><a v-bind:href="demo.href3"><span
+            <div id="circle">2</div><span v-html="demo.title2"></span><a v-bind:href="demo.href2"><span
+                    v-html="demo.content2"></a><span v-html="demo.description2"></span><br>
+            <!-- <div id="circle">3</div><span v-html="demo.title3"></span><a v-bind:href="demo.href3"><span
                     v-html="demo.content3"></a><br>
             <div id="circle">4</div><span v-html="demo.title4"></span><a v-bind:href="demo.href4"><span
                     v-html="demo.content4"></a><br> -->

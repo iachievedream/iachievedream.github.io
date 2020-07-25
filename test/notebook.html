@@ -6,127 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>about</title>
     <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="myjs.js"></script>
     <link rel="stylesheet" type="text/css" href="css.css">
+    <link rel="stylesheet" type="text/css" href="sidenav.css">
 </head>
-<script type="text/ecmascript">
-    /*改變原始寬度（0）*/
-    function openNav() {
-        document.getElementById("mySidenav").style.width = "175px";
-        document.getElementById("comment").style.margin = "0 0 0 175px";
-    }
-    /*恢復原始寬度0*/
-    function closeNav() {
-        document.getElementById("mySidenav").style.width = "0";
-        document.getElementById("comment").style.margin = "0";
-    }
-</script>
-
-<style>
-    @charset "utf-8";
-    /* CSS Document */
-
-    body {
-        font-family: "Lato", sans-serif;
-    }
-
-    /*側邊欄選擇器*/
-    .sidenav {
-        height: 100%;
-        width: 0;
-        /*原始寬度爲0*/
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: #111;
-        overflow-x: hidden;
-        transition: 0.5s;
-        padding-top: 60px;
-    }
-
-    /*側邊欄選項選擇器*/
-    .sidenav a {
-        padding: 8px 8px 8px 32px;
-        text-decoration: none;
-        font-size: 25px;
-        color: #818181;
-        display: block;
-        transition: 0.3s;
-    }
-
-    /*側欄標籤和關閉按鈕光標的效果*/
-    .sidenav a:hover,
-    .offcanvas a:focus {
-        color: #f1f1f1;
-    }
-
-    /*側欄和關閉按鈕的位置選擇器*/
-    .sidenav .closebtn {
-        position: absolute;
-        top: 0;
-        right: 25px;
-        font-size: 36px;
-        margin-left: 50px;
-    }
-
-    /*當文檔高度小於450px時，改變側欄的padding屬性和字體大小*/
-    @media screen and (max-height: 450px) {
-        .sidenav {
-            padding-top: 15px;
-        }
-        .sidenav a {
-            font-size: 18px;
-        }
-    }
-    @media screen and (max-width: 400px) {
-        .mySidenav {
-            width: 200px;
-        }
-        .sidenav a {
-        }
-    }
-</style>
-
-<div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="index.html">About</a>
-    <a href="demo.html">demo</a>
-    <a href="notebook.html">notebook</a>
-    <!-- <a href="#">Contact</a> -->
-</div>
-<div id="comment">
-        <span style="font-size:25px; cursor:pointer" onclick="openNav()">&#9776; 側邊欄位</span>
-    <h2>Dome</h2>
-
-    <style>
-        @media screen and (max-width: 500px) {
-            #mymain {
-                height: 120px;
-            }
-        }
-    </style>
-
-    <div id="resume">
-
-        <div class="ex">
-            <div v-html="title.content5"></div>
-            <div id="circle">1</div>主要整理筆記：<a v-bind:href="demobook.text1">demo_code</a><br>
-            <div id="circle">3</div>舊筆記，還需重新整理：<a v-bind:href="demobook.text2">notebook</a><br>
-        </div>
-
-        <div class="ex">
-            <div v-html="title.content6"></div>
-            <div id="circle">1</div>laravel 的 blog(含筆記)：<a v-bind:href="demo_code.text1">blog-laravel</a><br>
-            <div id="circle">2</div>laravel 的 blog，採用JWT方式：<a v-bind:href="demo_code.text2">blog-laravel-jwt</a><br>
-        </div>
-
-        <!-- <img id="line" src="line.png"> -->
-
-        <div class="foot">iachievedream foot 2020</div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">About</a>
+        <a href="demo.html">demo</a>
+        <a href="notebook.html">notebook</a>
+        <!-- <a href="#">Contact</a> -->
     </div>
-    <script src="html_vue.js"></script>
-</div>
+    <div id="comment">
+        <span style="font-size:25px; cursor:pointer" onclick="openNav()">&#9776; 側邊欄位</span>
+        <h2>Dome</h2>
+        <div id="resume">
+            <div class="ex">
+                <div v-html="title.content5"></div>
+                <div id="circle">1</div>主要整理筆記：<a v-bind:href="demobook.text1">demo_code</a><br>
+                <div id="circle">3</div>舊筆記，還需重新整理：<a v-bind:href="demobook.text2">notebook</a><br>
+            </div>
+            <div class="ex">
+                <div v-html="title.content6"></div>
+                <div id="circle">1</div>laravel 的 blog(含筆記)：<a v-bind:href="demo_code.text1">blog-laravel</a><br>
+                <div id="circle">2</div>laravel 的 blog，採用JWT方式：<a v-bind:href="demo_code.text2">blog-laravel-jwt</a><br>
+            </div>
 
+            <!-- <img id="line" src="line.png"> -->
+
+            <div class="foot">iachievedream foot 2020</div>
+        </div>
+        <script src="html_vue.js"></script>
+    </div>
 </body>
 
 </html>

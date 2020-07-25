@@ -1,13 +1,18 @@
 
+@media screen and (max-width: 900px) {
+    #mymain {
+        height: 120px;
+    }
+}
+
 body {
     /* font-family: "Lato", sans-serif; */
     font-family: 'Helvetica', 'Arial','LiHei Pro','黑體-繁','微軟正黑體', 'sans-serif';
-
 }
 
-#bigform{
+div.main, div.ex,div.github,div.exfoot{
+        box-shadow:1px 1px 0.5px 0.5px #2d302f;/*區塊陰影效果*/
 }
-
 div.main {
     height: 100px;
     width: 92%;
@@ -33,6 +38,19 @@ div.ex {
     margin: 0px 1% 1% 1%;
 }
 
+
+div.demo {
+    height: 130px;
+    width: 92%;
+    text-align: left;
+    background-color: #03a9f473;
+    float: left;
+    z-index: 1;
+    border-radius: 10px;
+    padding: 5px 3% 5px 3%;
+    margin: 0px 1% 1% 1%;
+}
+
 div.github {
     height: 90px;
     width: 92%;
@@ -46,7 +64,7 @@ div.github {
 }
 
 div.exfoot {
-    height: 160px;
+    height: 140px;
     width: 92%;
     text-align: left;
     background-color: #03a9f473;
@@ -66,18 +84,18 @@ div.foot {
 }
 
 #circle {
-        /* top: 290px;
-        left: 4%; */
-        width: 30px;
-        height: 30px;
-        line-height: 30px;
-        background-color: #ff9800;
-        text-align: center;
-        border-radius: 50%;
-        position: static;/*待了解*/
-        z-index: 5;
-        margin: 1px 6px;
-        display:inline-block;/*待了解*/
+    /* top: 290px;
+    left: 4%; */
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #ff9800;
+    text-align: center;
+    border-radius: 50%;
+    position: static;/*待了解*/
+    z-index: 5;
+    margin: 1px 6px;
+    display:inline-block;/*待了解*/
 }
 
 img.incon {

@@ -34,7 +34,7 @@ new Vue({
             skill2:'CSS',
             skill3:'PHP',
             skill4:'MySQL',
-            skill5:'Laravel',
+            skill5:'Laravel'
         },
         demo:{
             title1:'AWS：',
@@ -44,7 +44,7 @@ new Vue({
             title2:'pure php：',
             href2:'http://aws.fuwork.nctu.me:8000/demo_code/php/msg_pure_ajax/',
             content2:'msg pure ajax',
-            description2:'(update_ajax以及即時更新列表尚未解決)',
+            description2:'(update_ajax以及即時更新列表尚未解決)'
         },
         demobook:{
             title1:'主要整理筆記：',
@@ -52,7 +52,7 @@ new Vue({
             href1:'https://github.com/iachievedream/demo_code',
             href2:'https://github.com/iachievedream/notebook',
             content1:'demo_code',
-            content2:'notebook',
+            content2:'notebook'
         },
         demo_code:{
             title1:'laravel 的 blog(含筆記)：',
@@ -66,7 +66,7 @@ new Vue({
             moviehref2:'https://www.youtube.com/watch?v=yn9q4NXd7BM&list=PLfBT9P5LG1z8n61SkoeK5nxIdS83LwZi3&index=1',
             moviehref1:'https://www.youtube.com/watch?v=PgSaVoqxjTo&list=PLfBT9P5LG1z8n61SkoeK5nxIdS83LwZi3&index=2',
             moviecontent1:'demo',
-            moviecontent2:'demo',
+            moviecontent2:'demo'
         }
     }
 })

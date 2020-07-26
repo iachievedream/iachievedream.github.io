@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>about</title>
-    <script src="https://unpkg.com/vue/dist/vue.js"></script>
-    <script src="myjs.js"></script>
-    <link rel="stylesheet" type="text/css" href="css.css">
-    <link rel="stylesheet" type="text/css" href="sidenav.css">
+    <script src="../js/vue.js"></script>
+    <script src="js/myjs.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+    <link rel="stylesheet" type="text/css" href="css/sidenav.css">
 </head>
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -19,22 +19,9 @@
     </div>
     <div id="comment">
         <span style="font-size:25px; cursor:pointer" onclick="openNav()">&#9776; 側邊欄位</span>
-        <h2>Dome</h2>
+        <h2>Notebook</h2>
         <div id="resume">
-            <div class="ex">
-                <div v-html="title.content5"></div>
-                <div id="circle">1</div>主要整理筆記：<a v-bind:href="demobook.text1">demo_code</a><br>
-                <div id="circle">3</div>舊筆記，還需重新整理：<a v-bind:href="demobook.text2">notebook</a><br>
-            </div>
-            <div class="ex">
-                <div v-html="title.content6"></div>
-                <div id="circle">1</div>laravel 的 blog(含筆記)：<a v-bind:href="demo_code.text1">blog-laravel</a><br>
-                <div id="circle">2</div>laravel 的 blog，採用JWT方式：<a v-bind:href="demo_code.text2">blog-laravel-jwt</a><br>
-            </div>
-
-            <!-- <img id="line" src="line.png"> -->
-
-            <div class="foot">iachievedream foot 2020</div>
+            
         </div>
         <script src="html_vue.js"></script>
     </div>

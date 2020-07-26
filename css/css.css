@@ -10,7 +10,7 @@ body {
     font-family: 'Helvetica', 'Arial','LiHei Pro','黑體-繁','微軟正黑體', 'sans-serif';
 }
 
-div.main, div.ex,div.github,div.exfoot{
+div.main, div.ex,div.demo,div.github,div.exfoot{
         box-shadow:1px 1px 0.5px 0.5px #2d302f;/*區塊陰影效果*/
 }
 div.main {
@@ -114,4 +114,9 @@ img.incon {
 
 #linetext {
     z-index: 4;
+}
+
+ul.experience{
+    padding:5px 0px 10px 20px;
+    margin:0px 0px 0px 0px;
 }

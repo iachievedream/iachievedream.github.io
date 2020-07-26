@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
     <!-- <script src="https://unpkg.com/vue/dist/vue.js"></script> -->
-    <script src="vue.js"></script>
-    <link rel="stylesheet" type="text/css" href="css.css">
+    <script src="js/vue.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/css.css">
 </head>
 
 <body>
@@ -33,7 +33,7 @@
         </div>
         <div id="myex" class="ex">
             <div v-html="title.content2"></div>
-            <ul v-for="experience in experiences" style="padding-inline-start:20px;">
+            <ul v-for="experience in experiences" style="padding:5px 0px 10px 20px ;margin:0 0 0 0;">
                 <li >{{ experience.text }}</li>
             </ul>
         </div>

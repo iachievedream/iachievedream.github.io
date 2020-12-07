@@ -13,7 +13,7 @@ new Vue({
             chinese: '傅獻慶',
             english: 'FU,SIAN-CING',
             id: 'iachievedream',
-            content:'喜歡學習以及分享，透過自學往程式這條路的人。喜歡兩門科學，物理以及經濟學，且用程式來完成。'
+            content:'喜歡學習以及分享，透過自學往程式這條路的人。喜歡兩門科學，物理以及經濟學，並且想結合程式來完成。'
         },
         contect:{
             github:'https://github.com/iachievedream',
@@ -37,18 +37,18 @@ new Vue({
             skill5:'Laravel'
         },
         demo:{
-            title1:'AWS：',
-            href1:'http://aws.fuwork.nctu.me',
-            content1:'aws.fuwork.nctu.me',
-            description1:'(測試帳號：demo@gmail.com，密碼12345678)',
-            title2:'pure php：',
-            href2:'http://aws.fuwork.nctu.me:8000/demo_code/php/msg_pure_ajax/',
-            content2:'msg pure ajax',
-            description2:'(update_ajax以及即時更新列表尚未解決)'
+            title1:'CodeIgniter3：',
+            href1:'http://a.fuwork.tk/',
+            content1:'a.fuwork.tk',
+            description1:' (測試帳號：demo，密碼：demo)',
+            title2:'Laravel6：',
+            href2:'http://a.fuwork.tk:8000/',
+            content2:'a.fuwork.tk:8000',
+            description2:' 基本留言板(有middleware做管理權限，測試帳號：demo@demo，密碼：12345678)'
         },
         demobook:{
             title1:'主要整理筆記：',
-            title2:'舊筆記，還需重新整理：',
+            title2:'舊筆記，待重新統整：',
             href1:'https://github.com/iachievedream/demo_code',
             href2:'https://github.com/iachievedream/notebook',
             content1:'demo_code',

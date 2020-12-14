@@ -38,12 +38,12 @@ new Vue({
         },
         demo:{
             title1:'CodeIgniter3：',
-            href1:'http://a.fuwork.tk/',
-            content1:'a.fuwork.tk',
+            href1:'http://fuwork.tk/',
+            content1:'fuwork.tk',
             description1:' (測試帳號：demo，密碼：demo)',
-            title2:'Laravel6：',
-            href2:'http://a.fuwork.tk:8000/',
-            content2:'a.fuwork.tk:8000',
+            title2:'Laravel 6：',
+            href2:'http://fuwork.tk:8000/',
+            content2:'fuwork.tk:8000',
             description2:' 基本留言板(有middleware做管理權限，測試帳號：demo@demo，密碼：12345678)'
         },
         demobook:{
